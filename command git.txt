@@ -1,0 +1,49 @@
+   14  git config --global user.name aditya-94 --> menginisialisasi username
+   15  git config --global user.name "aditya-94" --> menginisialisasi email
+ 
+   
+   20  git remote add origin https://github.com/adit-94/latihan.git
+   21  pwd
+   22  cd /c/users/adityaDocuments/GitHub/hacktiv8-latihan
+   23  pwd
+   24  cd /documents/github/hacktiv8-latihan
+   25  cd C:/Users/Aditya/Documents/GitHub/hacktiv8-latihan
+   26  ls
+   27  pwd
+   28  cd
+   29  cd /Documents/github/hactiv8-latihan
+   30  cd C:/Users/Aditya/Documents/GitHub/hacktiv8-latihan
+ 
+   52  git push origin master
+   53  ssh-keygen -t rsa -b 4096 -C "pantherstreak@gmail.com"
+   54  cat ~/.ssh/id_rsa_adit.pub
+   55  ls
+   56  cat ~/.ssh/id_rsa_D.pub
+   57  cat ~/.ssh/id_rsa_adit.pub
+   58  cat ~/.ssh/id_rsa
+   59  cat ~/.ssh/id_rsa
+   60  cat ~/.ssh/id_rsa.pub
+   61  ssh-keygen -t rsa -b 4096 -C "pantherstreak@gmail.com"
+   62  cat ~/.ssh/id_rsa.pub
+   63  git push origin master
+   64  git remote -v
+   65  git remote change origin git@github.com:adit-94/hacktiv8-latihan.git
+   66  git remote curl-hange origin git@github.com:adit-94/hacktiv8-latihan.git
+   67  git remote cset-urlorigin git@github.com:adit-94/hacktiv8-latihan.git
+   68  git remote cet-urlorigin git@github.com:adit-94/hacktiv8-latihan.git
+   69  git remote cet-urlo rigin git@github.com:adit-94/hacktiv8-latihan.git
+   70  git remote cset-url oigin git@github.com:adit-94/hacktiv8-latihan.git
+   71  git set-url origin git@github.com:adit-94/hacktiv8-latihan.git
+   72  git remote set-url origin git@github.com:adit-94/hacktiv8-latihan.git
+   73  git push origin master
+   74  git push origin master -f
+   75  git remote -v
+   76  git push origin master
+   77  ssh-agent
+   78  eval $(ssh-agent)
+   79  ssh-add ~/.ssh/id_rsa
+   80  git push origin master
+   81  git history
+   82  git status
+   83  history
+

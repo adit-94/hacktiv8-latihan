@@ -1,0 +1,18 @@
+b {
+ color: blue;
+ }
+
+ .data-ktp {
+       color: green;
+      
+  }
+
+.data-ktp-nonprimary {
+background: darkturquoise
+}
+
+  #data-ktp-primary {
+      text-decoration: underline
+  }
+
+  
