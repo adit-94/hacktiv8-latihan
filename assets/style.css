@@ -1,6 +1,41 @@
-b {
- color: blue;
- }
+.profile-photo{
+display: inline-block;
+border: 10px solid red;
+}
+
+body{
+  font-family: 'Source Code Pro', monospace;
+}
+.profile-data {
+  border: 1px solid red;
+  border-collapse: collapse;
+}
+.profile-data th {
+    border: 1px solid red;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 44px;
+}
+.profile-data td {
+  padding: 10px;
+  border: 1px solid red;
+  text-align: left;
+  
+}
+.profile-data ol,.profile-data ul, .profile-data ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 20px;
+  
+}
+  
+
+ a,b {
+  text-decoration: none;
+  color: black;
+    }
+
 
  .data-ktp {
        color: green;

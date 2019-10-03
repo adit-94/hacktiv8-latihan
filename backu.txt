@@ -1,0 +1,19 @@
+    <b id="data-ktp-primary" class="data-ktp">Nama:</b> Aditya Nanda Pratama <br>
+    <b class="data-ktp-nonprimary"  >Umur:</b> 25 <br>
+    <b class="data-ktp">Gender:</b> Lanang <br>
+        <p></p><b>Interest:</b>
+        <ol>
+          <li>Teknologi</li>
+          <li>Game</li>
+        </ol>
+
+    <p><b>Hobi:</b></p>
+    <ul>
+      <li>1.Jalan - Jalan</li>
+      <li>2.Wisata</li>
+    </ul>
+
+    <p><b>Web favorit:</b></p>
+    <ul>
+      <li><a href="https://www.instagram.com/aditya_nanda.94/" target="_blank"><b>Instagram</b> </a></li> 
+       <li><a href="https://www.facebook.com/aditya.np.94" target="_blank"><b>Facebook</b> </a></li>
