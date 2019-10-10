@@ -1,61 +1,81 @@
 <html>
-  <head>
-    <title>
-      Profile Saya
-    </title>
-    <link rel="icon" href="icon.png">
-    <link rel="stylesheet" href="assets/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
-    </head>
 
-  <body>
-    <div class="profile-photo">
-      <img height="100px" src="fox.png" alt="hacktiv8" >
-    </div>
-    
-    <br>
-   
-    <em style="color:firebrick"> Biodata saya</em>
-    <hr> <!--   ini untuk garis dan spasi -->
+<head>
+  <title>
+    Profile Saya
+  </title>
+  <link rel="icon" href="icon.png">
+  <!-- <link rel="stylesheet" href="assets/style.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
 
-    <p><b>Profile Adit</b> </p>
-<hr>
-    <table class="profile-data" >
-      <thead>
-        <th>Nama</th>
-        <th>Umur</th>
-        <th>Gender</th>
-        <th>Interest</th>
-        <th>Hobi</th>
-        <th>Link</th>
-      </thead>
-      <tr>
-        <td>Aditya </td>
-        <td>25</td>
-        <td>Lanang</td>
+<body>
+  <div class="container">
+    <div class="row py-sm-5">
+      <div class="col-sm-3 text-center">
+        <img class="img-thumbnail rounded-circle" height="100px" src="fox.png" alt="hacktiv8" />
+        <h1 class="display-5" style="color:firebrick">Aditya</h1>
+      </div>
+      <div class="col-sm-9 table-responsive">
+        <table class="table">
+          <thead class="thead-dark">
+            <th scope="col">#</th>
+            <th scope="col">Nama</th>
+            <th scope="col">Umur</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Interest</th>
+            <th scope="col">Hobi</th>
+            <th scope="col">Link</th>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Aditya </td>
+              <td>25</td>
+              <td>Lanang</td>
 
-        <td>
-          <ol>
-            <li>Teknologi</li>
-            <li>game</li>
-          </ol>
-        </td>
-        <td>  
-          <ul>
-            <li>Jalan - Jalan</li>
-            <li>Wisata</li>
-          </ul>
-        </td>
-        
-        <td>
-          <ul>
-               <li><a href="https://www.instagram.com/aditya_nanda.94/" target="_blank"><b>Instagram</b> </a></li> 
-               <li><a href="https://www.facebook.com/aditya.np.94" target="_blank">Facebook </a></li>
-          </ul>
+              <td>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Teknologi</li>
+                  <li class="list-group-item">game</li>
+                </ul>
               </td>
-      </tr>
+              <td>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Jalan - Jalan</li>
+                  <li class="list-group-item">Wisata</li>
+                </ul>
+              </td>
 
-    </table>
+              <td>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item list-group-item-warning"><a
+                      href="https://www.instagram.com/aditya_nanda.94/" target="_blank"><b>Instagram</b> </a></li>
+                  <li class="list-group-item list-group-item-primary"><a href="https://www.facebook.com/aditya.np.94" target="_blank">Facebook
+                    </a>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
 
-     </body>
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
